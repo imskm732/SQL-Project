@@ -46,7 +46,7 @@ This project integrates multiple datasets:
 
 All analytical queries used for turnout analysis, vote-share comparison, margin computation, anomaly detection, and swing analysis are available below:
 
-👉 [View SQL Query File](https://github.com/imskm732/SQL-Project/blob/0cc752028763549f3de79e95268d6f2090afc25a/Politcal_analysis%20setup%20and%20primary%20question%20solution.sql)
+👉 [View SQL Query File](https://github.com/imskm732/SQL-Project/blob/2e318b1e0e04bcd944a7197b5e1ad77da56f16c3/Politcal_analysis%20setup%20and%20primary%20question%20solution.sql)
 
 ---
 
@@ -128,7 +128,7 @@ Correlation testing showed:
 👉 [Here](https://github.com/imskm732/SQL-Project/tree/0cc752028763549f3de79e95268d6f2090afc25a/Dataset)
 
 🧾 **SQL Query File:**  
-👉 [Here](https://github.com/imskm732/SQL-Project/blob/0cc752028763549f3de79e95268d6f2090afc25a/Politcal_analysis%20setup%20and%20primary%20question%20solution.sql)
+👉 [Here](https://github.com/imskm732/SQL-Project/blob/2e318b1e0e04bcd944a7197b5e1ad77da56f16c3/Politcal_analysis%20setup%20and%20primary%20question%20solution.sql)
 
 📽 **Presentation Video:**  
 👉 [Here]()
