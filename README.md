@@ -30,14 +30,15 @@ The project aimed to:
 This project integrates multiple datasets:
 
 - 🗳️ Lok Sabha 2014 Election Results  
-- 🗳️ Lok Sabha 2019 Election Results  
+- 🗳️ Lok Sabha 2019 Election Results
+- 🗳️ dim_state_codes
 - 📊 State-level **Per Capita NSDP** Data (GDP Proxy)  
 - 📚 Literacy Data (Fetched using **Web Scraping + BeautifulSoup**)  
 
 ✅ **Note:** 2014 and 2019 election results were merged into a **single unified dataset** for comparative analysis.
 
 📁 **Dataset Folder:**  
-👉 [View Datasets Here](https://github.com/imskm732/SQL-Project/tree/1a03d64ff6ddafa68f61df111aa74f4fc3a7279e/Dataset)
+👉 [View Datasets Here](https://github.com/imskm732/SQL-Project/tree/0cc752028763549f3de79e95268d6f2090afc25a/Dataset)
 
 ---
 
@@ -45,7 +46,7 @@ This project integrates multiple datasets:
 
 All analytical queries used for turnout analysis, vote-share comparison, margin computation, anomaly detection, and swing analysis are available below:
 
-👉 [View SQL Query File](https://github.com/imskm732/SQL-Project/blob/f7b401aa497058a3369383509b637031ac7a58e3/Politcal_analysis%20setup%20and%20primary%20question%20solution.sql)
+👉 [View SQL Query File](https://github.com/imskm732/SQL-Project/blob/0cc752028763549f3de79e95268d6f2090afc25a/Politcal_analysis%20setup%20and%20primary%20question%20solution.sql)
 
 ---
 
@@ -121,13 +122,13 @@ Correlation testing showed:
 ## 🔗 Project Links
 
 📓 **Python Notebook:**  
-👉 [Here](https://github.com/imskm732/SQL-Project/blob/67eab9ae9325f1cab047e389d5f04843a4db2013/Political_Analysis.ipynb)
+👉 [Here](https://github.com/imskm732/SQL-Project/blob/0cc752028763549f3de79e95268d6f2090afc25a/Political_Analysis.ipynb)
 
 📁 **Datasets Folder:**  
-👉 [Here](https://github.com/imskm732/SQL-Project/tree/1a03d64ff6ddafa68f61df111aa74f4fc3a7279e/Dataset)
+👉 [Here](https://github.com/imskm732/SQL-Project/tree/0cc752028763549f3de79e95268d6f2090afc25a/Dataset)
 
 🧾 **SQL Query File:**  
-👉 [Here](https://github.com/imskm732/SQL-Project/blob/f7b401aa497058a3369383509b637031ac7a58e3/Politcal_analysis%20setup%20and%20primary%20question%20solution.sql)
+👉 [Here](https://github.com/imskm732/SQL-Project/blob/0cc752028763549f3de79e95268d6f2090afc25a/Politcal_analysis%20setup%20and%20primary%20question%20solution.sql)
 
 📽 **Presentation Video:**  
 👉 [Here]()
