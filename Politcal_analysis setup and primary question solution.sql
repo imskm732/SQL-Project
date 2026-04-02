@@ -454,7 +454,7 @@ JOIN clean_state_codes s
 SET f.state_id = s.state_id;
 
 SET SQL_SAFE_UPDATES = 1;
---------------------
+
 -- TRIM state values in fact (avoids join mismatches) 
 UPDATE fact_election_results
 SET state = TRIM(state)
