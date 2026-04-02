@@ -444,10 +444,8 @@ ADD COLUMN election_result_id BIGINT NOT NULL AUTO_INCREMENT PRIMARY KEY;
 ALTER TABLE fact_election_results
 ADD COLUMN state_id INT NULL;
 
--- TRIM state values in fact (avoids join mismatches) 
-UPDATE fact_election_results
-SET state = TRIM(state)
-WHERE state <> TRIM(state);
+-- from here we FIX************
+SET SQL_SAFE_UPDATES = 0;
 
 -- POPULATE state_id USING clean_state_codes 
 UPDATE fact_election_results f
@@ -455,6 +453,12 @@ JOIN clean_state_codes s
   ON f.state = s.state_name
 SET f.state_id = s.state_id;
 
+SET SQL_SAFE_UPDATES = 1;
+--------------------
+-- TRIM state values in fact (avoids join mismatches) 
+UPDATE fact_election_results
+SET state = TRIM(state)
+WHERE state <> TRIM(state);
 
 -- CHECK FOR UNMAPPED STATES (FIX THESE BEFORE FK)
 SELECT state, COUNT(*) AS unmapped_rows
